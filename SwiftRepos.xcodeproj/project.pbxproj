@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85AFC23306E9C2000057A1D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F85AFC22306E9C2000057A1D /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85AFBE4306E974C00057A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85AFBCE306E974A00057A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85AFBD5306E974A00057A1D;
+			remoteInfo = SwiftRepos;
+		};
+		F85AFBEE306E974C00057A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85AFBCE306E974A00057A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85AFBD5306E974A00057A1D;
+			remoteInfo = SwiftRepos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F85AFBD6306E974A00057A1D /* SwiftRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85AFBE3306E974C00057A1D /* SwiftReposTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftReposTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85AFBED306E974C00057A1D /* SwiftReposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftReposUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F85AFBD8306E974A00057A1D /* SwiftRepos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftRepos;
+			sourceTree = "<group>";
+		};
+		F85AFBE6306E974C00057A1D /* SwiftReposTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftReposTests;
+			sourceTree = "<group>";
+		};
+		F85AFBF0306E974C00057A1D /* SwiftReposUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftReposUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85AFBD3306E974A00057A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				F85AFC23306E9C2000057A1D /* Alamofire in Frameworks */,
+			);
+		};
+		F85AFBE0306E974C00057A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		F85AFBEA306E974C00057A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85AFBCD306E974A00057A1D = {
+			isa = PBXGroup;
+			children = (
+				F85AFBD8306E974A00057A1D /* SwiftRepos */,
+				F85AFBE6306E974C00057A1D /* SwiftReposTests */,
+				F85AFBF0306E974C00057A1D /* SwiftReposUITests */,
+				F85AFC21306E9C1B00057A1D /* Frameworks */,
+				F85AFBD7306E974A00057A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85AFBD7306E974A00057A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85AFBD6306E974A00057A1D /* SwiftRepos.app */,
+				F85AFBE3306E974C00057A1D /* SwiftReposTests.xctest */,
+				F85AFBED306E974C00057A1D /* SwiftReposUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85AFC21306E9C1B00057A1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85AFBD5306E974A00057A1D /* SwiftRepos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85AFBF5306E974C00057A1D /* Build configuration list for PBXNativeTarget "SwiftRepos" */;
+			buildPhases = (
+				F85AFBD2306E974A00057A1D /* Sources */,
+				F85AFBD3306E974A00057A1D /* Frameworks */,
+				F85AFBD4306E974A00057A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85AFC20306E9BE500057A1D /* PBXTargetDependency */,
+				F85AFC18306E9BB700057A1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F85AFBD8306E974A00057A1D /* SwiftRepos */,
+			);
+			name = SwiftRepos;
+			packageProductDependencies = (
+				F85AFC22306E9C2000057A1D /* Alamofire */,
+			);
+			productName = SwiftRepos;
+			productReference = F85AFBD6306E974A00057A1D /* SwiftRepos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85AFBE2306E974C00057A1D /* SwiftReposTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85AFBF8306E974C00057A1D /* Build configuration list for PBXNativeTarget "SwiftReposTests" */;
+			buildPhases = (
+				F85AFBDF306E974C00057A1D /* Sources */,
+				F85AFBE0306E974C00057A1D /* Frameworks */,
+				F85AFBE1306E974C00057A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85AFBE5306E974C00057A1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F85AFBE6306E974C00057A1D /* SwiftReposTests */,
+			);
+			name = SwiftReposTests;
+			productName = SwiftReposTests;
+			productReference = F85AFBE3306E974C00057A1D /* SwiftReposTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F85AFBEC306E974C00057A1D /* SwiftReposUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85AFBFB306E974C00057A1D /* Build configuration list for PBXNativeTarget "SwiftReposUITests" */;
+			buildPhases = (
+				F85AFBE9306E974C00057A1D /* Sources */,
+				F85AFBEA306E974C00057A1D /* Frameworks */,
+				F85AFBEB306E974C00057A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85AFBEF306E974C00057A1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F85AFBF0306E974C00057A1D /* SwiftReposUITests */,
+			);
+			name = SwiftReposUITests;
+			productName = SwiftReposUITests;
+			productReference = F85AFBED306E974C00057A1D /* SwiftReposUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85AFBCE306E974A00057A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					F85AFBD5306E974A00057A1D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					F85AFBE2306E974C00057A1D = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = F85AFBD5306E974A00057A1D;
+					};
+					F85AFBEC306E974C00057A1D = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = F85AFBD5306E974A00057A1D;
+					};
+				};
+			};
+			buildConfigurationList = F85AFBD1306E974A00057A1D /* Build configuration list for PBXProject "SwiftRepos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85AFBCD306E974A00057A1D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F85AFBFE306E97B300057A1D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F85AFBD7306E974A00057A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85AFBD5306E974A00057A1D /* SwiftRepos */,
+				F85AFBE2306E974C00057A1D /* SwiftReposTests */,
+				F85AFBEC306E974C00057A1D /* SwiftReposUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85AFBD4306E974A00057A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		F85AFBE1306E974C00057A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		F85AFBEB306E974C00057A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85AFBD2306E974A00057A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		F85AFBDF306E974C00057A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		F85AFBE9306E974C00057A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85AFBE5306E974C00057A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85AFBD5306E974A00057A1D /* SwiftRepos */;
+			targetProxy = F85AFBE4306E974C00057A1D /* PBXContainerItemProxy */;
+		};
+		F85AFBEF306E974C00057A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85AFBD5306E974A00057A1D /* SwiftRepos */;
+			targetProxy = F85AFBEE306E974C00057A1D /* PBXContainerItemProxy */;
+		};
+		F85AFC18306E9BB700057A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = F85AFC17306E9BB700057A1D /* Alamofire */;
+		};
+		F85AFC20306E9BE500057A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = F85AFC1F306E9BE500057A1D /* AlamofireDynamic */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F85AFBF3306E974C00057A1D /* Debug configuration for PBXProject "SwiftRepos" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F85AFBF4306E974C00057A1D /* Release configuration for PBXProject "SwiftRepos" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85AFBF6306E974C00057A1D /* Debug configuration for PBXNativeTarget "SwiftRepos" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halammari.SwiftRepos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F85AFBF7306E974C00057A1D /* Release configuration for PBXNativeTarget "SwiftRepos" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halammari.SwiftRepos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F85AFBF9306E974C00057A1D /* Debug configuration for PBXNativeTarget "SwiftReposTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halammari.SwiftReposTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRepos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftRepos";
+			};
+			name = Debug;
+		};
+		F85AFBFA306E974C00057A1D /* Release configuration for PBXNativeTarget "SwiftReposTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halammari.SwiftReposTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRepos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftRepos";
+			};
+			name = Release;
+		};
+		F85AFBFC306E974C00057A1D /* Debug configuration for PBXNativeTarget "SwiftReposUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halammari.SwiftReposUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftRepos;
+			};
+			name = Debug;
+		};
+		F85AFBFD306E974C00057A1D /* Release configuration for PBXNativeTarget "SwiftReposUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halammari.SwiftReposUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftRepos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85AFBD1306E974A00057A1D /* Build configuration list for PBXProject "SwiftRepos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85AFBF3306E974C00057A1D /* Debug configuration for PBXProject "SwiftRepos" */,
+				F85AFBF4306E974C00057A1D /* Release configuration for PBXProject "SwiftRepos" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F85AFBF5306E974C00057A1D /* Build configuration list for PBXNativeTarget "SwiftRepos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85AFBF6306E974C00057A1D /* Debug configuration for PBXNativeTarget "SwiftRepos" */,
+				F85AFBF7306E974C00057A1D /* Release configuration for PBXNativeTarget "SwiftRepos" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F85AFBF8306E974C00057A1D /* Build configuration list for PBXNativeTarget "SwiftReposTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85AFBF9306E974C00057A1D /* Debug configuration for PBXNativeTarget "SwiftReposTests" */,
+				F85AFBFA306E974C00057A1D /* Release configuration for PBXNativeTarget "SwiftReposTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F85AFBFB306E974C00057A1D /* Build configuration list for PBXNativeTarget "SwiftReposUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85AFBFC306E974C00057A1D /* Debug configuration for PBXNativeTarget "SwiftReposUITests" */,
+				F85AFBFD306E974C00057A1D /* Release configuration for PBXNativeTarget "SwiftReposUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F85AFBFE306E97B300057A1D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F85AFC17306E9BB700057A1D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F85AFBFE306E97B300057A1D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F85AFC1F306E9BE500057A1D /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F85AFBFE306E97B300057A1D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		F85AFC22306E9C2000057A1D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F85AFBFE306E97B300057A1D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F85AFBCE306E974A00057A1D /* Project object */;
+	validationLevel = 1;
+}

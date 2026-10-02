@@ -1,0 +1,23 @@
+//
+//  Repository.swift
+//  SwiftRepos
+//
+//  Created by H A on 01/10/2026.
+//
+import Foundation
+
+struct Repository: Codable, Identifiable, Hashable, Sendable {
+    let id: Int
+    let name: String
+    let itemDescription: String?
+    let htmlURL: String
+    let stargazersCount: Int
+
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case itemDescription = "description"
+        case htmlURL = "html_url"
+        case stargazersCount = "stargazers_count"
+    }
+}
